@@ -26,11 +26,6 @@ public class TimeEntryConfiguration
         builder.Property(entry => entry.Description)
             .HasColumnType("text");
 
-        builder.HasOne(entry => entry.User)
-            .WithMany(user => user.TimeEntries)
-            .HasForeignKey(entry => entry.UserId)
-            .OnDelete(DeleteBehavior.Restrict);
-
         builder.HasOne(entry => entry.ProjectTask)
             .WithMany(task => task.TimeEntries)
             .HasForeignKey(entry => entry.ProjectTaskId)

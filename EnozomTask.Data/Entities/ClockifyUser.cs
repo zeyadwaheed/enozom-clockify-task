@@ -9,6 +9,4 @@ public class ClockifyUser
     public ICollection<ProjectTask> AssignedTasks { get; set; }
         = new List<ProjectTask>();
 
-    public ICollection<TimeEntry> TimeEntries { get; set; }
-        = new List<TimeEntry>();
 }
