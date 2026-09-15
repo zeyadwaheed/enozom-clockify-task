@@ -1,0 +1,98 @@
+{
+  "info": {
+    "_postman_id": "4a435f6a-0a64-4a0a-bfb0-d2d04b76a742",
+    "name": "ClockifyCollections",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51523811",
+    "_collection_link": "https://go.postman.co/collection/51523811-4a435f6a-0a64-4a0a-bfb0-d2d04b76a742?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "getAllUsers",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"tasks\": [\r\n    {\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Homepage Mockup\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"originalEstimateHours\": 7\r\n    },\r\n    {\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Content Migration\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"originalEstimateHours\": 10\r\n    },\r\n    {\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"SEO Optimization\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"originalEstimateHours\": 12\r\n    },\r\n    {\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"API Integration\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"originalEstimateHours\": 5\r\n    },\r\n    {\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"User Testing\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a7\",\r\n      \"originalEstimateHours\": 3\r\n    },\r\n    {\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"Bug Fixing\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"originalEstimateHours\": 8\r\n    },\r\n    {\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Ad Design\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"originalEstimateHours\": 9\r\n    },\r\n    {\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Social Media Scheduling\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"originalEstimateHours\": 14\r\n    },\r\n    {\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Email Outreach\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"originalEstimateHours\": 24\r\n    }\r\n  ],\r\n  \"timeEntries\": [\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Homepage Mockup\",\r\n      \"start\": \"2025-07-20T09:15:00Z\",\r\n      \"end\": \"2025-07-20T11:45:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Content Migration\",\r\n      \"start\": \"2025-07-21T13:00:00Z\",\r\n      \"end\": \"2025-07-21T15:20:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"SEO Optimization\",\r\n      \"start\": \"2025-07-22T10:05:00Z\",\r\n      \"end\": \"2025-07-22T12:50:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"API Integration\",\r\n      \"start\": \"2025-07-23T11:10:00Z\",\r\n      \"end\": \"2025-07-23T13:35:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a7\",\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"User Testing\",\r\n      \"start\": \"2025-07-24T14:05:00Z\",\r\n      \"end\": \"2025-07-24T16:35:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"Bug Fixing\",\r\n      \"start\": \"2025-07-25T09:15:00Z\",\r\n      \"end\": \"2025-07-25T11:45:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Ad Design\",\r\n      \"start\": \"2025-07-26T10:10:00Z\",\r\n      \"end\": \"2025-07-26T12:10:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Social Media Scheduling\",\r\n      \"start\": \"2025-07-27T09:05:00Z\",\r\n      \"end\": \"2025-07-27T10:35:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Email Outreach\",\r\n      \"start\": \"2025-07-28T15:10:00Z\",\r\n      \"end\": \"2025-07-28T17:05:00Z\",\r\n      \"description\": \"\"\r\n    }\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7057/api/clockify/import",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7057",
+          "path": [
+            "api",
+            "clockify",
+            "import"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Import Sample Datase",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"tasks\": [\r\n    {\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Homepage Mockup\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"originalEstimateHours\": 7\r\n    },\r\n    {\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Content Migration\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"originalEstimateHours\": 10\r\n    },\r\n    {\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"SEO Optimization\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"originalEstimateHours\": 12\r\n    },\r\n    {\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"API Integration\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"originalEstimateHours\": 5\r\n    },\r\n    {\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"User Testing\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a7\",\r\n      \"originalEstimateHours\": 3\r\n    },\r\n    {\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"Bug Fixing\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"originalEstimateHours\": 8\r\n    },\r\n    {\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Ad Design\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"originalEstimateHours\": 9\r\n    },\r\n    {\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Social Media Scheduling\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"originalEstimateHours\": 14\r\n    },\r\n    {\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Email Outreach\",\r\n      \"assignedUserClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"originalEstimateHours\": 24\r\n    }\r\n  ],\r\n  \"timeEntries\": [\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Homepage Mockup\",\r\n      \"start\": \"2025-07-20T09:15:00Z\",\r\n      \"end\": \"2025-07-20T11:45:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"Content Migration\",\r\n      \"start\": \"2025-07-21T13:00:00Z\",\r\n      \"end\": \"2025-07-21T15:20:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"projectName\": \"Website Redesign\",\r\n      \"taskName\": \"SEO Optimization\",\r\n      \"start\": \"2025-07-22T10:05:00Z\",\r\n      \"end\": \"2025-07-22T12:50:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"API Integration\",\r\n      \"start\": \"2025-07-23T11:10:00Z\",\r\n      \"end\": \"2025-07-23T13:35:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a7\",\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"User Testing\",\r\n      \"start\": \"2025-07-24T14:05:00Z\",\r\n      \"end\": \"2025-07-24T16:35:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a8\",\r\n      \"projectName\": \"Mobile App Launch\",\r\n      \"taskName\": \"Bug Fixing\",\r\n      \"start\": \"2025-07-25T09:15:00Z\",\r\n      \"end\": \"2025-07-25T11:45:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a9\",\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Ad Design\",\r\n      \"start\": \"2025-07-26T10:10:00Z\",\r\n      \"end\": \"2025-07-26T12:10:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a5\",\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Social Media Scheduling\",\r\n      \"start\": \"2025-07-27T09:05:00Z\",\r\n      \"end\": \"2025-07-27T10:35:00Z\",\r\n      \"description\": \"\"\r\n    },\r\n    {\r\n      \"userClockifyId\": \"6aa94fea4a1ec95d4fac47a6\",\r\n      \"projectName\": \"Marketing Campaign\",\r\n      \"taskName\": \"Email Outreach\",\r\n      \"start\": \"2025-07-28T15:10:00Z\",\r\n      \"end\": \"2025-07-28T17:05:00Z\",\r\n      \"description\": \"\"\r\n    }\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7057/api/clockify/import",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7057",
+          "path": [
+            "api",
+            "clockify",
+            "import"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Synchronize Clockify Data",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Time Report",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Export Csv",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
