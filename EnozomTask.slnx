@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="EnozomTask.API/EnozomTask.API.csproj" />
+  <Project Path="EnozomTask.Data/EnozomTask.Data.csproj" />
+  <Project Path="EnozomTask.Repository/EnozomTask.Repository.csproj" />
+  <Project Path="EnozomTask.Service/EnozomTask.Service.csproj" />
+</Solution>

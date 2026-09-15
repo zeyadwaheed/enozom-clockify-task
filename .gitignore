@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+.env
+EnozomTask.API/appsettings.json
+EnozomTask.API/appsettings.Development.json
