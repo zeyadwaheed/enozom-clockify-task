@@ -1,0 +1,42 @@
+@baseUrl = https://localhost:7057
+@userId = REPLACE_WITH_WORKSPACE_USER_ID
+
+### Read actual workspace users before mapping the paper's sample names
+GET {{baseUrl}}/api/clockify/users
+Accept: application/json
+
+### Import: creates/reuses remote records and persists them locally
+POST {{baseUrl}}/api/clockify/import
+Content-Type: application/json
+
+{
+  "tasks": [
+    {
+      "projectName": "Website Redesign",
+      "taskName": "Homepage Mockup",
+      "assignedUserClockifyId": "{{userId}}",
+      "originalEstimateHours": 7
+    }
+  ],
+  "timeEntries": [
+    {
+      "userClockifyId": "{{userId}}",
+      "projectName": "Website Redesign",
+      "taskName": "Homepage Mockup",
+      "start": "2025-07-20T09:15:00Z",
+      "end": "2025-07-20T11:45:00Z"
+    }
+  ]
+}
+
+### Synchronize remote records into MySQL; inspect isComplete and issues
+POST {{baseUrl}}/api/clockify/sync
+Accept: application/json
+
+### Preview the report using local data
+GET {{baseUrl}}/api/reports/time
+Accept: application/json
+
+### Download CSV; running-timer count is included in the response headers
+GET {{baseUrl}}/api/reports/time/csv
+Accept: text/csv
